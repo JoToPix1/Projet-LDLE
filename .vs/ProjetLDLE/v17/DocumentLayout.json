@@ -54,7 +54,7 @@
               "RelativeDocumentMoniker": "ProjSecDemo\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\jotop\\OneDrive - Ifag Paris\\EPSI\\E5\\ProjetLDLE\\ProjSecDemo\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ProjSecDemo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwC0AAAAgAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAQwEQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-02T09:31:23.105Z",
               "EditorCaption": ""
@@ -69,8 +69,7 @@
               "RelativeToolTip": "ProjSecDemo\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T09:22:23.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T09:22:23.31Z"
             },
             {
               "$type": "Document",
@@ -82,8 +81,7 @@
               "RelativeToolTip": "ProjSecDemo\\Views\\Products\\Delete.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T09:13:27.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T09:13:27.441Z"
             },
             {
               "$type": "Document",
@@ -95,8 +93,7 @@
               "RelativeToolTip": "ProjSecDemo\\Controllers\\ProductsController.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAkwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T08:29:32.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T08:29:32.935Z"
             },
             {
               "$type": "Document",
@@ -108,8 +105,7 @@
               "RelativeToolTip": "ProjSecDemo\\Views\\Products\\Create.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T08:41:31.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T08:41:31.416Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProjSecDemo_ce226431_95d1_4288_a708_59eeecfd6ebf/True/SqlTable/dbo.AspNetUserRoles.sql",
               "ToolTip": "dbo.AspNetUserRoles [Donn\u00E9es]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-02T08:52:54.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T08:52:54.812Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProjSecDemo_ce226431_95d1_4288_a708_59eeecfd6ebf/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Donn\u00E9es]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-02T09:19:41.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T09:19:41.015Z"
             },
             {
               "$type": "Document",
@@ -141,8 +135,7 @@
               "RelativeToolTip": "ProjSecDemo\\Views\\Products\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T09:04:43.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T09:04:43.712Z"
             },
             {
               "$type": "Document",
@@ -154,8 +147,7 @@
               "RelativeToolTip": "ProjSecDemo\\Views\\Products\\Index.cshtml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAEUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T09:05:11.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T09:05:11.833Z"
             }
           ]
         }
