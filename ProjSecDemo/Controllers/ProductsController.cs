@@ -12,7 +12,7 @@ using ProjSecDemo.Models;
 
 namespace ProjSecDemo.Controllers
 {
-    [Authorize (Roles = "User")]
+    [Authorize]
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -47,7 +47,7 @@ namespace ProjSecDemo.Controllers
         }
 
         // GET: Products/Create
-        [Authorize(Roles = "Admin, Manager_Carrosserie, Manager_Peinture, Manager_Moteur")]
+        [Authorize(Roles = "Admin, Manager_Atelier, Manager_Ordinateur, Manager_Consommable, Manager_SAV, Manager_Vente")]
         public IActionResult Create()
         {
             return View();
@@ -62,9 +62,13 @@ namespace ProjSecDemo.Controllers
         {
             if (ModelState.IsValid)
             {
-                if ((User.IsInRole("Manager_Carroserie") && product.Type == "Carrosserie") ||
-         (User.IsInRole("Manager_Peinture") && product.Type == "Peinture") ||
-         (User.IsInRole("Manager_Moteur") && product.Type == "Moteur") ||
+                if ((User.IsInRole("Manager_Atelier") && product.Type == "Atelier") ||
+         (User.IsInRole("Manager_Ordinateur") && product.Type == "Ordinateur") ||
+         (User.IsInRole("Manager_SAV") && product.Type == "SAV") ||
+         (User.IsInRole("Manager_Consommable") && product.Type == "Consommable") ||
+         (User.IsInRole("Manager_Vente") && product.Type == "Vente") ||
+
+
          (User.IsInRole("Admin")))
                 {
                     _context.Add(product);
@@ -111,9 +115,9 @@ namespace ProjSecDemo.Controllers
             {
                 isConnected = User.Identity.IsAuthenticated;
             }
-            if ((User.IsInRole("Manager_Carroserie") && product.Type == "Carrosserie") ||
-        (User.IsInRole("Manager_Peinture") && product.Type == "Peinture") ||
-        (User.IsInRole("Manager_Moteur") && product.Type == "Moteur") ||
+            if ((User.IsInRole("Manager_Vente") && product.Type == "Vente") ||
+        (User.IsInRole("Manager_Ordinateur") && product.Type == "Ordinateur") ||
+        (User.IsInRole("Manager_SAV") && product.Type == "SAV") ||
         (User.IsInRole("Admin")))
             { return View(productEdit); }
              return Forbid();

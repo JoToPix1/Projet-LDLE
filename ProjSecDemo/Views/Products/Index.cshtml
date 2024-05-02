@@ -7,7 +7,7 @@
 <h1>Index</h1>
 
 <p>
-    @if (User.IsInRole("Manager_Carrosserie") || User.IsInRole("Manager_Peinture") || User.IsInRole("Manager_Moteur") || User.IsInRole("Admin"))
+    @if (User.IsInRole("Manager_Vente") || User.IsInRole("Manager_Ordinateur") || User.IsInRole("Manager_SAV") || User.IsInRole("Admin"))
     {
         <a asp-action="Create">Create New</a>
     }
@@ -59,7 +59,7 @@
                 @Html.DisplayFor(modelItem => item.Type)
             </td>
                 <td>
-                    @if ((User.IsInRole("Manager_Carroserie") && item.Type == "Carrosserie") || (User.IsInRole("Manager_Peinture") && item.Type == "Peinture") || (User.IsInRole("Manager_Moteur") && item.Type == "Moteur") || (User.IsInRole("Admin")))
+                    @if ((User.IsInRole("Manager_Vente") && item.Type == "Vente") || (User.IsInRole("Manager_Ordinateur") && item.Type == "Ordinateur") || (User.IsInRole("Manager_Atelier") && item.Type == "Atelier") || (User.IsInRole("Admin")))
                     {
                         <a asp-action="Edit" asp-route-id="@item.id">Edit</a>  <text>|</text>
                         <a asp-action="Delete" asp-route-id="@item.id">Delete</a> <text>|</text>

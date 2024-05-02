@@ -260,3 +260,4 @@ C:\Users\jotop\OneDrive - Ifag Paris\EPSI\E5\ProjetLDLE\ProjSecDemo\obj\Debug\ne
 C:\Users\jotop\OneDrive - Ifag Paris\EPSI\E5\ProjetLDLE\ProjSecDemo\obj\Debug\net8.0\ProjetLDLE.pdb
 C:\Users\jotop\OneDrive - Ifag Paris\EPSI\E5\ProjetLDLE\ProjSecDemo\obj\Debug\net8.0\ProjetLDLE.genruntimeconfig.cache
 C:\Users\jotop\OneDrive - Ifag Paris\EPSI\E5\ProjetLDLE\ProjSecDemo\obj\Debug\net8.0\ref\ProjetLDLE.dll
+C:\Users\jotop\OneDrive - Ifag Paris\EPSI\E5\ProjetLDLE\ProjSecDemo\obj\Debug\net8.0\ProjetLDLE.sourcelink.json

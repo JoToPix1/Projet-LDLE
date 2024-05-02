@@ -41,22 +41,30 @@
             </div>
             <div class="form-group">
                 <label asp-for="Type" class="control-label"></label>
-                <br> 
+                <br>
 
-              <select asp-for="Type">
-                    @if (User.IsInRole("Manager_Carroserie") || (User.IsInRole("Admin")))
+                <select asp-for="Type">
+                    @if (User.IsInRole("Manager_SAV") || (User.IsInRole("Admin")))
                     {
-                        <option value="Carrosserie">Carrosserie</option>
+                        <option value="SAV">SAV</option>
                     }
-                    @if (User.IsInRole("Manager_Peinture") || (User.IsInRole("Admin")))
+                    @if (User.IsInRole("Manager_Vente") || (User.IsInRole("Admin")))
                     {
-                        <option value="Peinture">Peinture</option>
+                        <option value="Vente">Vente</option>
                     }
-                    @if (User.IsInRole("Manager_Moteur") || (User.IsInRole("Admin")))
+                    @if (User.IsInRole("Manager_Ordinateur") || (User.IsInRole("Admin")))
                     {
-                        <option value="Moteur">Moteur</option>
+                        <option value="Ordinateur">Ordinateur</option>
                     }
-                </select> 
+                    @if (User.IsInRole("Manager_Consommable") || (User.IsInRole("Admin")))
+                    {
+                        <option value="Consommable">Consommable</option>
+                    }
+                    @if (User.IsInRole("Manager_Atelier") || (User.IsInRole("Admin")))
+                    {
+                        <option value="Atelier">Atelier</option>
+                    }
+                </select>
 
                 </br>
                 <span asp-validation-for="Type" class="text-danger"></span>
