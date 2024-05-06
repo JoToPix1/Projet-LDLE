@@ -118,6 +118,7 @@ namespace ProjSecDemo.Controllers
             if ((User.IsInRole("Manager_Vente") && product.Type == "Vente") ||
         (User.IsInRole("Manager_Ordinateur") && product.Type == "Ordinateur") ||
         (User.IsInRole("Manager_SAV") && product.Type == "SAV") ||
+        (User.IsInRole("Manager_Consommable") && product.Type == "Consommable") ||
         (User.IsInRole("Admin")))
             { return View(productEdit); }
              return Forbid();
@@ -176,9 +177,10 @@ namespace ProjSecDemo.Controllers
                 return NotFound();
             }
 
-            if ((User.IsInRole("Manager_Carroserie") && product.Type == "Carrosserie") ||
-        (User.IsInRole("Manager_Peinture") && product.Type == "Peinture") ||
-        (User.IsInRole("Manager_Moteur") && product.Type == "Moteur") ||
+            if ((User.IsInRole("Manager_Vente") && product.Type == "Vente") ||
+        (User.IsInRole("Manager_Ordinateur") && product.Type == "Ordinateur") ||
+        (User.IsInRole("Manager_SAV") && product.Type == "SAV") ||
+        (User.IsInRole("Manager_Consommable") && product.Type == "Consommable") ||
         (User.IsInRole("Admin")))
             {
                 return View(product);
@@ -198,10 +200,11 @@ namespace ProjSecDemo.Controllers
             var product = await _context.Products.FindAsync(id);
             if (product != null)
             {
-                if ((User.IsInRole("Manager_Carroserie") && product.Type == "Carrosserie") ||
-         (User.IsInRole("Manager_Peinture") && product.Type == "Peinture") ||
-         (User.IsInRole("Manager_Moteur") && product.Type == "Moteur") ||
-         (User.IsInRole("Admin")))
+                if ((User.IsInRole("Manager_Vente") && product.Type == "Vente") ||
+        (User.IsInRole("Manager_Ordinateur") && product.Type == "Ordinateur") ||
+        (User.IsInRole("Manager_SAV") && product.Type == "SAV") ||
+        (User.IsInRole("Manager_Consommable") && product.Type == "Consommable") ||
+        (User.IsInRole("Admin")))
                 {
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();

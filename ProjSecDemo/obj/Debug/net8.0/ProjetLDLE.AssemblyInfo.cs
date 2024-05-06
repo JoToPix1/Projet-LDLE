@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetLDLE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e30bb56347695bdf0fdffceb7a67b467484b7e10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19b989a9333d4f48c035e58fb5e24e2c6b97b2c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetLDLE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetLDLE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
